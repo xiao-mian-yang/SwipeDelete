@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
-<!--内容区的布局-->
+内容区的布局
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         android:text="名称"/>
 
 </LinearLayout>
-<!--删除区的布局-->
+删除区的布局
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
         android:text="Delete"/>
 
 </LinearLayout>
-<!--填充器的view的页面的布局-->
+填充器的view的页面的布局
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
     </com.wugaungdong.cn.swipedelete.SwipeLayout>
 
 </LinearLayout>
-<!--主页面的布局-->
+主页面的布局
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
