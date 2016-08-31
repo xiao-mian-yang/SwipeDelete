@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.itcast.cn.swipedelete.SwipeLayout
+        android:id="@+id/swipeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--contentView的布局-->
+        <include layout="@layout/layout_content"/>
+        <!--deleteView的布局-->
+        <include layout="@layout/layout_delete"/>
+
+    </com.itcast.cn.swipedelete.SwipeLayout>
+
+</LinearLayout>
